@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;   
+}
+header{
+    background-color: cornflowerblue;
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+footer{
+    background-color: gray;
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 30px;
+
+    bottom: 0;
+
+}
+
+nav{
+    float: left;
+    width: 30%;
+    background: cadetblue;
+    padding: 20px;
+    height: 300px;
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: darkolivegreen;
+    height: 300px;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media(max-width: 600px){
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
+}

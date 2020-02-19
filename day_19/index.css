@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.kontak{
+    color: blueviolet;border-inline-color: red;
+}
+
+.text-gojek{
+    background-color: #00ab14;
+    color: whitesmoke;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Courgette',Helvetica, sans-serif;
+}
+
+.text-masalah{
+    margin-top: 100px;
+    background-color: wheat;
+    color: turquoise;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Courgette',Helvetica, sans-serif;
+    padding: 10px 10px 15px;
+}
+
+.btn-pwdk{
+    background-color: #53b59f;
+    width: 255px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    padding: 20px;
+    border-radius:100px;
+    text-align: center;
+    
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.btn-pwdk:hover{
+    background-color: white;
+    color: #53b59f;
+    border: 1px #53b59f solid;
+    transition: 500ms;
+}

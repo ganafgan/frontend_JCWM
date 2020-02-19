@@ -1,0 +1,7 @@
+margin : jarak antar elemen
+padding : jarak objek dengan contain nya/ jarak antara container dengan contain nya
+tag html punya style bawaan masing masing
+
+span display nya inline width nya sesuai konten
+div display nya block width nya 100%
+
