@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item1{
+    flex: 1;
+}
+
+.flex-item2{
+    flex: 6;
+}

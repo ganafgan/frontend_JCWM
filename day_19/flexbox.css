@@ -1,0 +1,36 @@
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.item-1{
+    flex: 1;
+    background-color: gray;
+}
+
+.item-2{
+    flex: 5;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-3{
+    flex: 1;
+    background-color: lightpink;
+}
+
+.conten-1{
+    flex: 1;
+    background-color: lightsteelblue;
+}
+
+.conten-2{
+    flex: 5;
+    background-color: lime;
+}
