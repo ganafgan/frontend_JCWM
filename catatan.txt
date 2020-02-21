@@ -8,3 +8,7 @@ div display nya block width nya 100% display nya blok
 inline height dan width nya tidak bisa di atur
 
 memberikan css bisa memggunakan id, tag, class
+
+justify content beetwen
+
+css-tricks.com/snippets/css/a-guide-to-flexbox

@@ -1,0 +1,56 @@
+@font-face{
+    font-family: 'Apercu';
+    src: url('./Apercu/Apercu\ Pro\ Regular.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Apercu';
+    font-weight: bold;
+    src: url('./Apercu/Apercu\ Pro\ Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Apercu';
+    font-weight: lighter;
+    src: url('./Apercu/Apercu\ Pro\ Light.otf') format('opentype');
+}
+*{
+    font-family: 'Apercu';
+    font-weight: bold;
+}
+
+.outcome-report{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border: 1px solid red;
+    position: fixed;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    padding: 1rem 8.333333%;;
+}
+
+.pwdk-report{
+
+display: flex;    
+    
+}
+
+.pwdk-text{
+    display: flex;
+}
+
+.pwdk-btn{
+    background-color: #53b59f;
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    
+    padding: 5px;
+    border-radius:50px;
+    text-align: center;
+    cursor: pointer;
+    transition: 500ms;
+}
