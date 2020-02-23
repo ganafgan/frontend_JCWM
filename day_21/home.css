@@ -1,25 +1,9 @@
-.huruf{
-    border: solid 5px greenyellow;
-    color: whitesmoke;
-    border-radius: 30px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-   
-}
-
-body{
-    background-image: url(./naruto.png);
-    background-size: cover;
-}
-
 *{
     font-family: cursive;
 }
 table{
     border-collapse: collapse;
     width: 50%;
-    background-color: whitesmoke;
 }
 
 th,td{
